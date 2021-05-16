@@ -1,2 +1,2 @@
 # myportfolio
-succesfully cloned.
+this repo is for html output of my portfolio.

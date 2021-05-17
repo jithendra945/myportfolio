@@ -1,9 +1,17 @@
-.body-background{
+.body-background {
     background-color: lightgray;
 }
 
+/* Header */
+.header-style {
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
 @media(min-width:768px) {
-    .container-1 {
+    .container-flex {
         display: flex;
         justify-content: space-between;
     }
@@ -31,10 +39,8 @@ h6 {
     margin: 10px 0;
 }
 
-
 .div-border {
     border: 5px lightgray solid;
-
 }
 
 .box-1 {
@@ -55,15 +61,37 @@ h6 {
     text-align: center;
 }
 
-.links:hover {
-    opacity: 0.3;
-    cursor: pointer;
+.image-style {
+    padding-top: 10px;
+    width: 50%;
+    border-radius: 15%;
 }
 
-.icons {
+.theme-color {
     color: #009688;
-    margin-right: 16px;
+}
 
+.grey-text {
+    color: #757575;
+}
+
+.progress-bar {
+    background-color: #f1f1f1;
+    width: 90%;
+    border-radius: 15px;
+}
+
+.skill-style {
+    background-color: #009688;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.font16 {
+    font-size: 16px;
 }
 
 .font18 {
@@ -74,24 +102,16 @@ h6 {
     font-size: 23px;
 }
 
+.font25 {
+    font-size: 25px;
+}
+
+.font32 {
+    font-size: 32px;
+}
+
 .font36 {
     font-size: 36px;
-}
-
-
-.container {
-    background-color: #f1f1f1;
-    width: 90%;
-    border-radius: 15px;
-}
-
-.skill {
-    background-color: #009688;
-    color: white;
-    padding: 1%;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 15px;
 }
 
 .width-100 {
@@ -114,12 +134,12 @@ h6 {
     width: 50%;
 }
 
-.container-work {
-    padding: 0px 16px;
+.icon-padding {
+    margin-right: 16px;
 }
 
-.opacity6 {
-    opacity: 0.6;
+.description-padding {
+    padding: 0px 16px;
 }
 
 .padding-16 {
@@ -127,7 +147,11 @@ h6 {
     padding-bottom: 16px !important;
 }
 
-.current-tag {
+.opacity6 {
+    opacity: 0.6;
+}
+
+.year-style {
     color: #fff;
     background-color: #009688;
     border-radius: 4px;
@@ -137,19 +161,13 @@ h6 {
     margin-top: 5px;
 }
 
-.grey-text {
-    color: #757575;
+.hr-style {
+    border-top: 1px solid #eee;
 }
 
-/* Header */
-.header-style {
-    text-align: center;
-    color: #009688;
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
+.bio-para {
+    margin: 15px 0px;
 }
-
 
 /* Footer */
 .footer {
@@ -157,4 +175,9 @@ h6 {
     background-color: #009688;
     color: white;
     text-align: center;
+}
+
+.links:hover {
+    opacity: 0.3;
+    cursor: pointer;
 }

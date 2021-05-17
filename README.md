@@ -1,4 +1,9 @@
-# myportfolio
-this repo is for html output of my portfolio.
+# Portfolio website using HTML and CSS
 
-run portfolio.html
+Click the link to see the website hosted on Heroku.
+https://jithendra-portfolio.herokuapp.com/
+
+
+Or
+
+open portfolio.html file in browser to see the website.
